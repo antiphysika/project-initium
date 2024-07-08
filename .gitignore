@@ -1,0 +1,16 @@
+# Wildcard
+.*.swp
+
+# IDEA
+*.ipr
+*.iws
+*.iml
+/.idea
+/out
+
+# Gradle
+/build
+/.gradle
+
+# Runs
+/runs
