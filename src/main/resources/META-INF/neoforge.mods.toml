@@ -4,7 +4,7 @@
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
 license="${mod_license}"
-#issueTrackerURL="https://github.com/antiphysika/project-initium/issues"
+issueTrackerURL="https://github.com/antiphysika/project-initium/issues"
 
 [[mods]]
 modId="${mod_id}"
