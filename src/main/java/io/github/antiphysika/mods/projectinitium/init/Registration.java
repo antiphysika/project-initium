@@ -17,6 +17,7 @@ package io.github.antiphysika.mods.projectinitium.init;
 import static io.github.antiphysika.mods.projectinitium.ProjectInitium.MOD_ID;
 
 import net.minecraft.world.item.Item;
+
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;

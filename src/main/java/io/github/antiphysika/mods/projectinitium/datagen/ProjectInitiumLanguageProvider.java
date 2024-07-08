@@ -1,8 +1,8 @@
 package io.github.antiphysika.mods.projectinitium.datagen;
 
 import static io.github.antiphysika.mods.projectinitium.ProjectInitium.MOD_ID;
-
 import io.github.antiphysika.mods.projectinitium.init.Registration;
+
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 
