@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "project_initium",
+  "key": {
+    "B": {
+      "tag": "c:stones"
+    }
+  },
+  "pattern": [
+    "B  ",
+    "B  "
+  ],
+  "result": {
+    "count": 2,
+    "id": "project_initium:stone_rod"
+  }
+}

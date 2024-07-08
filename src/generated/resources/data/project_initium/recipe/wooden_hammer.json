@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "project_initium",
+  "key": {
+    "B": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "pattern": [
+    " B ",
+    " SB",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "project_initium:wooden_hammer"
+  }
+}
