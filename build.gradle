@@ -101,6 +101,9 @@ dependencies {
       requireCapability('dev.lukebemish:dynamicassetgenerator-neoforge')
     }
   }
+
+  // Xaero's Mini Map
+  implementation "curse.maven:xaeros-minimap-263420:5437649"
 }
 
 tasks.withType(ProcessResources).configureEach {

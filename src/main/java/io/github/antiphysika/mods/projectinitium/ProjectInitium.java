@@ -16,11 +16,9 @@ package io.github.antiphysika.mods.projectinitium;
 
 import io.github.antiphysika.mods.projectinitium.init.ModInit;
 import io.github.antiphysika.mods.projectinitium.init.Registration;
-
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
-
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 

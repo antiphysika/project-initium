@@ -22,5 +22,8 @@ public class ProjectInitiumLanguageProvider extends LanguageProvider
 
     // Item: Tool parts
     addItem(Registration.STONE_ROD, "Stone Rod");
+
+    // World presets
+    add("generator.project_initium.void", "Project Initium");
   }
 }

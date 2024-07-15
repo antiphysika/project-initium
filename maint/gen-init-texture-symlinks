@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# Mod
+MOD_ID='xcompblocks'
+
+# Output assets/ dir
+ASSETS_DIR=src/main/resources/assets
+
+# Temp init texture
+INIT_TEXTURE=assets/init.png
+
+# Textures dir
+TEXTURES_DIR="$ASSETS_DIR/$MOD_ID/textures"
+
+COMP_BLOCKS=(
+  cobblestone
+)
+
+function gen_init_block_texture()
+{
+  echo "Generating temporary init texture: $1"
+  cp -a --reflink=always "$INIT_TEXTURE" "$1"
+}
+
+function gen_init_block_textures()
+{
+  local block="$1"
+  local b1x="${block}_1x"
+  local b2x="${block}_2x"
+  local b3x="${block}_3x"
+
+  gen_init_block_texture "$TEXTURES_DIR/block/$b1x.png"
+  gen_init_block_texture "$TEXTURES_DIR/block/$b2x.png"
+  gen_init_block_texture "$TEXTURES_DIR/block/$b3x.png"
+}
+
+mkdir -p "$TEXTURES_DIR/block"
+
+for block in "${COMP_BLOCKS[@]}"
+do
+  gen_init_block_textures "$block"
+done
+
+#
+# vim: ts=2 sw=2 et fdm=marker :
